@@ -11,9 +11,8 @@ Provide a brief description of your project here.
 3. [Setup](#setup)
 4. [Running the Application](#running-the-application)
 5. [Docker Instructions](#docker-instructions)
-6. [Environment Variables](#environment-variables)
-7. [Usage](#usage)
-8. [Credits](#credits)
+6. [Usage](#usage)
+7. [Credits](#credits)
 
 ## Prerequisites
 
@@ -30,7 +29,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/TawongaTaibu/politicalcandidateTT.git
+    git clone https://github.com/TawongaTaibu/politicalcandidate3.git
     cd your-repo
     ```
 
@@ -60,11 +59,7 @@ Ensure you have the following installed:
 
 ## Setup
 
-1. **Create or update environment variables:**
-
-    Ensure any required environment variables are set up. Create a `.env` file if necessary, and include any sensitive information such as passwords or API keys.
-
-2. **Apply database migrations (if applicable):**
+1. **Apply database migrations (if applicable):**
 
     ```bash
     python manage.py migrate
@@ -77,22 +72,26 @@ Ensure you have the following installed:
 1. **Start the application:**
 
     ```bash
-    python manage.py
+    python manage.py runserver
     ```
 
-   Replace `manage.py` with the entry point of your application if different.
+   Run the "python manage.py runserver" command to start your application. 
+   
+3. **Access the application in your browser:**
 
-2. **Access the application in your browser:**
+    After running the command, you'll be redirected by clicking the `http://localhost:8000` or the appropriate URL specified in your application.
 
-    Visit `http://localhost:8000` or the appropriate URL specified in your application.
-
+5.
 ### Using Docker
 
 1. **Build the Docker image:**
 
     ```bash
     docker build -t dfa .
+    
     ```
+
+    Using docker, we can create an image in this case called "dfa" which is our django app name
 
 2. **Run the Docker container:**
 
@@ -100,15 +99,12 @@ Ensure you have the following installed:
     docker run -p 8000:8000 dfa
     ```
 
-   Adjust the port and image name as needed.
+   By running this command you ensure that the docker container 'dfa' is ready to go.
 
 3. **Access the application in your browser:**
 
     Visit `http://localhost:8000` or the appropriate URL specified in your Docker configuration.
 
-## Environment Variables
-
-Make sure to add sensitive information such as passwords or API tokens to a `.env` file. This file should not be committed to your Git repository. Ensure your `.gitignore` file is configured to exclude this file.
 
 ## Usage
 Firstly, you have to open the projects folder on your IDE and click *RUN* or by clicking 
