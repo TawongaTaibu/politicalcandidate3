@@ -43,12 +43,12 @@ Ensure you have the following installed:
 
     - On Windows:
       ```bash
-      venv\Scripts\activate
+      TTenv\Scripts\activate
       ```
 
     - On macOS/Linux:
       ```bash
-      source venv/bin/activate
+      source TTenv/bin/activate
       ```
 
 4. **Install the required packages:**
