@@ -30,7 +30,7 @@ Ensure you have the following installed:
 
     ```bash
     git clone https://github.com/TawongaTaibu/politicalcandidate3.git
-    cd your-repo
+    cd politicalcandidate3
     ```
 
 2. **Create a virtual environment:**
