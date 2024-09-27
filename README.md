@@ -116,6 +116,7 @@ For example, if a user is willing to view the news of the political party he/she
 
 ## Credits
 
-List any contributors or resources used in your project.
+https://www.techtarget.com/searchsoftwarequality/definition/documentation#:~:text=Software%20documentation%20provides%20information%20about,such%20as%20installation%20and%20troubleshooting.
+https://www.tutorialspoint.com/docker/index.html
 
 ---
